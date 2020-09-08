@@ -11,9 +11,14 @@ COPY my_app.py my_app.py
 COPY app /usr/docker/app
 ```
 
-# Copy Command Coppies a Local File INTO the dockercontainer
-# COPY
 # USER
+User specifies which user to use - good for installing packages that require root access
+
 # EXPOSE
+this determin's what ports to "expose" to the outside world, be default no ports are accessible 
+
 # ENV
+Sets environment variables for the web app
+
 # WORKDIR
+Specifies which directory is considered "Home"
